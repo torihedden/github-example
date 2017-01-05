@@ -1,29 +1,38 @@
 body {
   background-color: lightblue;
   color: white;
+  font-family: 'Raleway', Helvetica, sans-serif;
 }
 
 h1 {
   text-decoration: underline;
 }
 
+/* Header styles here */
+
 .section-1 {
   background-color: blue;
   font-size: 20px;
+  border: 20px solid red;
+  box-sizing: border-box;
+  display: inline-block;
 }
 
 .section-2 {
   background-color: blue;
   font-size: 20px;
+  border: white 10px solid;
+  display: inline-block;
 }
 
 a {
   text-decoration: none;
 }
 
-section {
-  height: 300px;
+div {
+  /*height: 100px;*/
   width: 800px;
+  border: solid 10px yellow;
 }
 
 .image-1 {
@@ -44,4 +53,10 @@ section {
 .image-4 {
   height: 200px;
   width: 200px;
+}
+
+/*Footer styles here*/
+
+.example-button {
+  border: solid 10px red;
 }
